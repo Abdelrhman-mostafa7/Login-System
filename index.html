@@ -11,9 +11,9 @@
     />
     <title>Login</title>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <link rel="stylesheet" href="../css/all.min.css" />
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <section id="min-pag">
@@ -21,36 +21,30 @@
         <div class="main-input m-auto p-5 text-center">
           <h1>Smart Login System</h1>
           <input
-            type="text"
-            class="form-control my-3"
-            id="sign-up-name"
-            placeholder="Enter your name"
-          />
-          <input
             type="email"
             class="form-control my-3"
-            id="sign-up-email"
+            id="sign-in-email"
             placeholder="Enter your email"
           />
           <input
             type="password"
             class="form-control my-3"
-            id="sign-up-password"
+            id="sign-in-password"
             placeholder="Enter your password"
           />
-          <p id="exist" class="m-3 pt-2"></p>
-          <button id="btn-sign" class="btn btn-outline-info w-100 my-3">
-            Sign Up
+          <p id="input-incorrect" class="m-3 pt-2"></p>
+          <button id="btn-login" class="btn btn-outline-info w-100 my-3">
+            Login
           </button>
           <p class="text-white">
-            You have an account?
-            <a class="text-white" href="./index.html"> Sign In</a>
+            Don’t have an account?
+            <a class="text-white" href="./sign.html" >Sign Up</a>
           </p>
-        </div>
+        </div >
       </div>
     </section>
 
-    <script src="../JS/bootstrap.bundle.min.js"></script>
-    <script src="../JS/sign.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/index.js"></script>
   </body>
 </html>
